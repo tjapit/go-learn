@@ -51,7 +51,7 @@ func main() {
 	var h complex128 = complex(5, 12)
 	fmt.Printf("%v, %T\n", h, h)
 
-	// string
+	// string (utf8)
 	s := "this is a string"
 	fmt.Printf("%v, %T\n", s, s)
 	// strings in GO are an alias for a byte (uint8)
@@ -64,8 +64,9 @@ func main() {
 	t := []byte(s)
 	fmt.Printf("%v, %T\n", t, t)
 
-	// rune
+	// rune (utf32)
 	r := 'a'
+	// runes are int32s
 	fmt.Printf("%v, %T\n", r, r)
 
 }
