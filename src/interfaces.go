@@ -14,6 +14,9 @@ import (
  * - Don't export interfaces for types that will be consumed
  * - Do export interfaces for types that will be used by package
  * - Design functions and methods to receive interfaces whenever possible
+ *
+ * NOTE: GO INTERFACE DIFFER FROM OTHER LANGUAGES
+ * source: https://youtu.be/YS4e4q9oBaU?t=19495
  */
 
 /* SUMMARY
